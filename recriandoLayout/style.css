@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ft-title: "Dosis", sans-serif;
+    --ft-paragraph: "Open Sans", sans-serif;
+
+    --color-ft-title: #3F3D56;
+    --color-ft-title2: #EE24FF;
+    --color-ft-paragraph: #828282;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    font-family: var(--ft-paragraph);  
+    font-size: 1.5rem;
+    color: #828282;
+}
+
+.page {
+    width: 102.4rem;
+    height: 79.0rem;
+    margin: 0 auto 0 auto;    
+}
+
+main {
+    width: 62.6rem;
+    height: 48.6rem;
+    left: 19.9rem;
+    top: 6.4rem;
+    margin: 6.4rem auto 0 auto;
+}
+
+h1 {
+    width: 49.4rem;
+    font-family: var(--ft-title);
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: var(--color-ft-title);
+    line-height: 4.0rem;
+    justify-content: center;
+    margin: 3.2rem auto 0 auto;
+    
+    
+}
+
+h1 span {
+    font-weight: 700;
+    color: var(--color-ft-title2);
+    
+}
+
+section {
+    align-items: center;
+    text-align: center;
+}
+
+.paragraph {
+    width: 54.0rem;
+    height: 10.7rem;
+    line-height: 2.2rem;
+    margin: 1.6rem auto 0 auto;
+
+}
+
+.paragraph span {
+    font-weight: 700;
+    color: var(--color-ft-title);
+}
+
+.paragraph2 p {
+    width: 62.6rem;
+    line-height: 2.0rem;
+    margin-top: 3.2rem;
+}
+
+footer { 
+    width: 102.4rem;
+    height: 17.6rem;
+    left: 0px;
+    top: 61.4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 4.2rem;
+    text-decoration: none;
+}
+
+#line {
+    margin-top: 6.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    color: #ECEFF2;
+    width: 39.1rem;
+
+}
+
+footer a {
+    text-decoration: none;
+    margin-top: 1.6rem;
+    margin-bottom: 4.1rem;
+    font-weight: 700;
+    color: var(--color-ft-title);
+}
